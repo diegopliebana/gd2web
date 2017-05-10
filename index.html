@@ -1,0 +1,170 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en"> 
+  <head> 
+	<title>CE810 / IGGI GD2</title>	
+	<link href="css/prettify.css" type="text/css" rel="stylesheet" />
+	<link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/gvg.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.countdown.css" media="screen" rel="stylesheet" type="text/css" /> 
+	
+	<style type="text/css">
+
+      		body {
+		        padding-top: 60px;
+		        padding-bottom: 40px;
+		     }
+	        .sidebar-nav {
+	        	padding: 9px 0;
+		     }
+    	</style>
+    	
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>	
+	<script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+	<script type="text/javascript" src="js/prettify/prettify.js"></script>
+	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="https://www.w3schools.com/lib/w3data.js"></script>
+
+	
+<script type="text/javascript">
+$(function () {
+  $('.tabs a:last').tab('show')
+})
+
+$('a[data-toggle="tab"]').on('shown', function (e) {
+  e.target // activated tab
+  e.relatedTarget // previous tab
+})
+</script>
+
+
+<script type="text/javascript"> 
+    $(function(){
+      $("#includeSchedule").load("schedule.html"); 
+    });
+</script>
+
+  </head>
+<body onload="prettyPrint()">
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">CE810 / IGGI GD2</a>
+          
+          <div class="nav-collapse pull-down">
+            <ul class="nav">
+            	<li><a href="#outline">Outline</a></li>
+            	<li><a href="#schedule">Schedule</a></li>
+            	<li><a href="#assessment">Assessment</a></li>
+            </ul>
+          </div>
+            
+          
+        </div>
+      </div>
+</div>
+
+<div class="container">
+
+
+<h2 align="center">CE810 / IGGI GD2 - Game Design (Part II) - 2016/2017</h2><br>
+
+<div class="alert alert-info" align="center">
+<font size="3">
+<b>Game Design (Part II)</b> extends the principles of game Design studied in Part I with the latest <b>Artificial Intelligence</b>
+techniques. This part of the module will cover state of the art AI methods that can be used for <b>automatic game tuning</b>, 
+<b>game design</b>, and <b>testing</b> using AI agents and methods. During this module, you will learn these techniques, design your 
+own game, participate in an AI hack (prizes available) and conduct <b>user trials</b> to evaluate your design. Finally, you 
+will write all your work and experiments in a scientific paper and receive feedback in order to help you submit it to
+a conference.
+</font> 
+</div>
+
+
+
+
+<h2 id="outline">Outline</h2>
+
+The theme of this part of the course is AI Informed Game Design. The main aim is use AI 
+to make better games, though attention will also be given to how we can design games to 
+test important aspects of AI. What “better” means in this context can be hard to pin down, 
+and in everyday terms is anyway a subjective measure. To make this more objective we’ll 
+consider aspects of player experience that can be measured and optimised. Since getting 
+human players to play through games can be expensive and time consuming, we’ll look at 
+using software agents to automatically play test games, in addition to using human play-testing.<br><br>
+
+A key aspect of the course is to consider how the design space of a class of games can be
+defined using appropriate data or program structures and then explored using automated search
+algorithms. Depending on how generally the search space is defined this approach can either 
+be used to generate novel games, or it can be used to find the best set of parameters for 
+a particular game.<br><br>
+
+The course will be taught with a mixture of lectures, labs (including game AI competitions), 
+group work and invited talks.
+
+
+
+
+<br>
+<h2 id="assessment">Assessment</h2>
+
+Students are advised to work in groups (ideal size between 3 - 5). <br><br>
+
+This module is taken both by CE810 and IGGI students, and groups should be formed from within each cohort since the deliverables are slightly different. <br><br>
+
+The deliverables are as follows, and should be packaged into a single .zip file: <br><br>
+
+<ul>
+<li>Report in the form of a short draft conference paper.  The paper should include or be accompanied by a brief statement of the contribution of each author. (3-4 pages for CE810, 4-6 pages for IGGI).  The paper should have an additional appendix of the questionnaire used for the user-trials.
+<li>Peer-review comments on the paper (peer review is by course participants)
+<li>Code for two versions of a game drawn from a game design space
+<li>A video showing the games in action
+<li>Results of user trials
+<li>Data (game logs etc) underlying the results in the paper
+</ul>
+
+<a href="docs/PaperOutline.pdf">Suggested paper outline</a><br><br>
+
+<a href="docs/GroupPresentationForm.docx">Group Presentation Marking Form</a>
+
+
+
+<script>
+w3IncludeHTML();
+</script>
+
+</div> <!-- end of content-->
+
+</div> <!-- end of wrapper -->
+
+</br></br>
+
+<p align="center"><a href="#top"> - Go Top - </a>
+
+<div id="footer">
+<div class="alert alert-info">
+<p style="text-align: center;">Send your queries to Diego Perez-Liebana (dperez@essex.ac.uk)</p>
+</div>
+</div><!-- end of footer -->
+
+
+
+
+
+
+</body>
+
+</html>
+
